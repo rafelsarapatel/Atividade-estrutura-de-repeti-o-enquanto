@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    real n
+    real nota = 0
+    real contador = 0
+
+    enquanto(contador < 4){
+      escreva("digite a nota aluno ")
+      leia(n)
+
+      nota = nota + n
+      contador = contador + 1 
+      
+    }
+    nota = nota / 4
+    escreva("a soma dos numeros é: ",nota)
+  }
+}
