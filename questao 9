@@ -3,6 +3,7 @@ programa {
     real numero 
     real par = 0
     real contador = 1
+    real impar = 0
 
     enquanto( contador <=10){
       escreva("digite um numero ")
@@ -12,7 +13,12 @@ programa {
       se(numero % 2 == 0){
       par = par + 1 }
 
+      se(numero % 2 != 0){
+        impar = impar + 1}
+
+
       contador = contador + 1 
+
       
 
 
@@ -20,6 +26,7 @@ programa {
 
     }
     escreva("numeros pares digitados: ", par)
+     escreva("\nnumeros impares digitados: ", impar)
 
 
   }
