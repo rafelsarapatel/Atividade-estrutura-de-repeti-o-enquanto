@@ -1,0 +1,26 @@
+programa {
+  funcao inicio() {
+    real numero 
+    real par = 0
+    real contador = 1
+
+    enquanto( contador <=10){
+      escreva("digite um numero ")
+      leia(numero)
+      limpa()
+
+      se(numero % 2 == 0){
+      par = par + 1 }
+
+      contador = contador + 1 
+      
+
+
+
+
+    }
+    escreva("numeros pares digitados: ", par)
+
+
+  }
+}
