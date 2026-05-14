@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    cadeia senha = "1234"
+
+    enquanto(verdadeiro){
+      escreva("digite sua senha: ")
+      leia (senha)
+
+      se(senha != "1234"){
+      escreva("ACESSO NEGADO! ")
+      }
+      senao{
+      
+      se(senha == "1234")
+      escreva("\nACESSO PERMITIDO!")
+      pare}
+      
+
+    }
+  }
+}
