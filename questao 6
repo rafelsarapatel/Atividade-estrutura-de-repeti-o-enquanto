@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro numer
+    inteiro contador = 1
+    inteiro soma
+
+      escreva("\ndigite um numero para tabuada ")
+      leia(numer)
+
+    enquanto(contador <=10){
+      escreva("\n",numer," x ", contador, " = ", numer * contador)
+    
+
+      contador = contador + 1
+
+    }
+  }
+}
