@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    real algOritimo = 0
+
+    enquanto(algOritimo <=4){
+      escreva("\nalgOritimo")
+
+      algOritimo = algOritimo + 1
+
+    }
+  }
+}
