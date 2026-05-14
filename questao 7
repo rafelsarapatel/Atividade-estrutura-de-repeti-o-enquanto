@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    real numero
+    real soma = 0
+    cadeia numeros = ""
+    enquanto(verdadeiro){
+      escreva("digite um numero para somar, caso queira parar e mostrar o resultado final da sua soma digite (0)\n")
+      leia(numero)
+      limpa()
+
+      se(numero == 0){
+        pare}
+
+        soma = soma + numero
+
+        numeros = numeros + numero + " "
+      
+    }
+    escreva("numeros digitados ", numeros,"\n")
+        escreva("resultado da sua soma e igual a: ", soma)
+      
+  }
+}
